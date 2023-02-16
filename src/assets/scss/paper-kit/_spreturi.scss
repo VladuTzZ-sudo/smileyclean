@@ -1,0 +1,122 @@
+body {
+    background: #fff;
+    font-family: "Comfortaa", sans-serif;
+    position: relative;
+    -ms-overflow-style: none !important;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none !important;
+    /* Firefox */
+}
+
+.body-nosroll {
+    overflow: hidden !important;
+}
+
+// footer {
+//     text-align: center;
+//     padding: 1em;
+//     max-width: 80px;
+//     position: fixed;
+//     top: 0;
+//     right: 25px;
+
+//     a {
+//         text-decoration: none;
+//         display: inline-block;
+//         width: 45px;
+//         height: 45px;
+//         border-radius: 50%;
+//         background: transparent;
+//         border: 1px dashed #fff;
+//         color: #fff;
+//         margin: 5px;
+
+//         &:hover {
+//             background: rgba(255, 255, 255, 0.1);
+//         }
+
+//         .icons {
+//             margin-top: 12px;
+//             display: inline-block;
+//             font-size: 20px;
+//         }
+//     }
+// }
+
+* {
+    box-sizing: border-box;
+}
+
+.super {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 90px;
+    background-color: red;
+    z-index: 5;
+}
+
+#nav-container-top {
+    background-color: transparent !important;
+    min-height: 140px;
+    min-width: 1px;
+    position: absolute;
+    text-align: center;
+    top: 100vh;
+    margin-top: -140px;
+    margin-bottom: 10px;
+    width: 100%;
+    // margin-left: 250px;
+    // margin-right: 250px;
+    display: inline-flex;
+    padding: 50px;
+    padding-left: 45vh;
+    padding-right: 45vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.is-pinned {
+    background-color: black !important;
+}
+
+.main-content2::-webkit-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    display: none;
+    /* Firefox */
+}
+
+.page-preturi {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+    gap: 20px;
+    //width: 90vw !important;
+}
+
+.body-preturi {
+    z-index : -100;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #001311;
+    font-family: 'Playfair Display', serif;
+    color: rgba(172,170,190, 1);
+    text-rendering: optimizeLegibility;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: white;
+    font-size: 14px;
+    overflow: hidden;
+    height: fit-content !important;
+    //width: 100% !important;
+}
