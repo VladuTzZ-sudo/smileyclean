@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.75e85e8f.css",
-    "main.js": "/static/js/main.d5bfcaa8.js",
+    "main.css": "/static/css/main.046a7eb1.css",
+    "main.js": "/static/js/main.13736839.js",
     "static/media/sofa3.jpg": "/static/media/sofa3.591ac044c35df719db95.jpg",
     "static/media/mocheta2.jpg": "/static/media/mocheta2.2b971e922169d2ab35ce.jpg",
     "static/media/carpet3.jpg": "/static/media/carpet3.586ac88d0fe8eb2c8903.jpg",
@@ -44,7 +44,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.75e85e8f.css",
-    "static/js/main.d5bfcaa8.js"
+    "static/css/main.046a7eb1.css",
+    "static/js/main.13736839.js"
   ]
 }

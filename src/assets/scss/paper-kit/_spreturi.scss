@@ -102,6 +102,10 @@ body {
     //width: 90vw !important;
 }
 
+.ok {
+    z-index: 100 !important;
+}
+
 .body-preturi {
     z-index : -100;
     align-items: center;
@@ -109,13 +113,13 @@ body {
     text-align: center;
     background-color: #001311;
     font-family: 'Playfair Display', serif;
-    color: rgba(172,170,190, 1);
+    //color: rgba(172,170,190, 1);
     text-rendering: optimizeLegibility;
     font-smooth: always;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: white;
-    font-size: 14px;
+    font-size: 14.5px;
     overflow: hidden;
     height: fit-content !important;
     //width: 100% !important;

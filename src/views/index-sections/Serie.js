@@ -21,63 +21,63 @@ function Serie() {
                 setTimeout(() => {
                     document.getElementById('primu').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('primu').scrollIntoViewIfNeeded(centerIfNeeded);
-                }, 200);
+                }, 50);
                 break;
             case 'coltare':
                 setTimeout(() => {
                     document.getElementById('doi').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('doi').scrollIntoViewIfNeeded(centerIfNeeded)
 
-                }, 200);
+                }, 50);
                 break;
             case 'fotolii':
                 setTimeout(() => {
                     document.getElementById('trei').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('trei').scrollIntoViewIfNeeded(centerIfNeeded)
 
-                }, 200);
+                }, 50);
                 break;
             case 'scaune':
                 setTimeout(() => {
                     document.getElementById('patru').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('patru').scrollIntoViewIfNeeded(centerIfNeeded)
 
-                }, 200);
+                }, 50);
                 break;
             case 'covoare':
                 setTimeout(() => {
                     document.getElementById('cinci').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('cinci').scrollIntoViewIfNeeded(centerIfNeeded)
 
-                }, 200);
+                }, 50);
                 break;
             case 'mochete':
                 setTimeout(() => {
                     document.getElementById('sase').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('sase').scrollIntoViewIfNeeded(centerIfNeeded)
 
-                }, 200);
+                }, 50);
                 break;
             case 'saltele':
                 setTimeout(() => {
                     document.getElementById('sapte').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('sapte').scrollIntoViewIfNeeded(centerIfNeeded)
 
-                }, 200);
+                }, 50);
                 break;
             case 'business':
                 setTimeout(() => {
                     document.getElementById('opt').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('opt').scrollIntoViewIfNeeded(centerIfNeeded)
 
-                }, 200);
+                }, 50);
                 break;
         }
     }, []);
 
     return (
 
-        <div className="main-content">
+        <div className="main-content" id="parinte">
             <div className="concept concept-one" id="primu">
                 <figcaption>
                     <span className="info">
@@ -96,7 +96,7 @@ function Serie() {
                             acarienilor si a petelor dificile ( cafea, vin, ciocolata, etc.)
                         </p>
 
-                        <p className="subtitlu-serviciu">Utilajele performante marca Kharcher prin metoda de curatare injectie-extractie ne vor ajuta sa efectuam o curatare in
+                        <p className="subtitlu-serviciu">Utilajele performante marca Karcher prin metoda de curatare injectie-extractie ne vor ajuta sa efectuam o curatare in
                             profunzime a tesaturilor si sa redam canapelei stralucirea si recapatarea culorilor !
                         </p>
                     </span>
@@ -123,7 +123,7 @@ function Serie() {
                             Smiley Clean va ofera servicii premium de curatare coltare si canapele la domiciliu la preturi excelente.
                         </p>
 
-                        <p className="subtitlu-serviciu">Utilajele performante marca Kharcher prin metoda de curatare injectie-extractie ne vor ajuta sa efectuam o curatare
+                        <p className="subtitlu-serviciu">Utilajele performante marca Karcher prin metoda de curatare injectie-extractie ne vor ajuta sa efectuam o curatare
                             in profunzime a tesaturilor si sa redam coltarului  stralucirea si recapatarea culorilor !
                         </p>
                     </span>
@@ -215,7 +215,7 @@ function Serie() {
                             la prevenirea răspândirii alergenilor si de asemenea, la protejarea sănătății persoanelor care locuiesc în casă.
                         </p>
 
-                        <p className="subtitlu-serviciu">Smiley Clean, foloseste Utilajele performante de curatare, marca Kharcher (metoda  injectie-extractie )
+                        <p className="subtitlu-serviciu">Smiley Clean, foloseste Utilajele performante de curatare, marca Karcher (metoda  injectie-extractie )
                             care elimina mirosurile neplacute, petele dificile si acarienii dar in acelasi timp este bland cu textilele si le reda culoarea.
                         </p>
                     </span>
@@ -307,7 +307,7 @@ function Serie() {
                         </p>
 
                         <p className="subtitlu-serviciu">
-                            Folosind Utilajele performante marca Kharcher prin metoda de curatare injectie-extractive,
+                            Folosind Utilajele performante marca Karcher prin metoda de curatare injectie-extractive,
                             scaunele dumneavoastra de birou vor fi curate și proaspete, fără murdărie, și mirosuri.
                         </p>
 

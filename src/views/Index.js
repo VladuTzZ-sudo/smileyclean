@@ -64,9 +64,6 @@ function Index() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     // document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
-
-    var target = document.querySelector('.main-content');
-
     //to check when element get's position sticky
     var observer = new IntersectionObserver(function (entries) {
       // no intersection 
@@ -103,12 +100,15 @@ function Index() {
     // last scroll distance
     var scrollLeft = 0, scrollTop = 0;
     // scroll event starts
+    var target = document.getElementById('parinte');
+
     target.addEventListener('scroll', function () {
+      
       clearInterval(timer);
       // restart the timer
       timer = setInterval(function () {
-        //console.log(target.scrollTop % (target.scrollHeight / 8), "hOOP");
-        if (target.scrollTop % (target.scrollHeight / 8) == 0) {
+        console.log(target.scrollTop % (target.scrollHeight / 8), "hOOP", target.scrollTop);
+        if (target.scrollTop % (target.scrollHeight / 8) <= 100) {
           // The scrolling distance is equal, it is considered to stop scrolling
           clearInterval(timer);
           //console.log(target.scrollTop / (target.scrollHeight / 8), "haha");
@@ -195,8 +195,10 @@ function Index() {
               document.getElementById('opt').classList.add("concept-eight");
               break;
           }
+        } else {
+          clearInterval(timer);
         }
-      }, 50);
+      }, 450);
     });
 
     return function cleanup() {

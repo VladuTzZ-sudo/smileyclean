@@ -260,8 +260,11 @@ function IndexNavbar() {
                                             href="/#canapele"
                                             onClick={(e) => {
                                                 toggleNavbarCollapse();
+                                                
                                                 var myTarget = document.getElementById('primu');
                                                 myTarget.scrollIntoView({ behavior: "smooth" });
+                                                myTarget.scrollIntoViewIfNeeded(true);
+
                                             }}
                                         >
                                             Curatare Canapele
@@ -273,6 +276,8 @@ function IndexNavbar() {
 
                                                 var myTarget = document.getElementById('doi');
                                                 myTarget.scrollIntoView({ behavior: "smooth" });
+                                                myTarget.scrollIntoViewIfNeeded(true);
+
                                             }}                                          >
                                             Curatare Coltare
                                         </DropdownItem>
@@ -283,6 +288,7 @@ function IndexNavbar() {
 
                                                 var myTarget = document.getElementById('trei');
                                                 myTarget.scrollIntoView({ behavior: "smooth" });
+                                                myTarget.scrollIntoViewIfNeeded(true);
                                             }}
                                         >
                                             Curatare Fotolii
@@ -294,6 +300,7 @@ function IndexNavbar() {
 
                                                 var myTarget = document.getElementById('patru');
                                                 myTarget.scrollIntoView({ behavior: "smooth" });
+                                                myTarget.scrollIntoViewIfNeeded(true);
                                             }}                                         >
                                             Curatare Scaune
                                         </DropdownItem>
@@ -304,6 +311,8 @@ function IndexNavbar() {
 
                                                 var myTarget = document.getElementById('cinci');
                                                 myTarget.scrollIntoView({ behavior: "smooth" });
+                                                myTarget.scrollIntoViewIfNeeded(true);
+
                                             }}                                        >
                                             Curatare Covoare
                                         </DropdownItem>
@@ -314,6 +323,8 @@ function IndexNavbar() {
 
                                                 var myTarget = document.getElementById('sase');
                                                 myTarget.scrollIntoView({ behavior: "smooth" });
+                                                myTarget.scrollIntoViewIfNeeded(true);
+
                                             }}                                          >
                                             Curatare Mochete
                                         </DropdownItem>
@@ -324,6 +335,8 @@ function IndexNavbar() {
 
                                                 var myTarget = document.getElementById('sapte');
                                                 myTarget.scrollIntoView({ behavior: "smooth" });
+                                                myTarget.scrollIntoViewIfNeeded(true);
+
                                             }}                                         >
                                             Curatare Saltele
                                         </DropdownItem>
@@ -335,6 +348,8 @@ function IndexNavbar() {
 
                                                 var myTarget = document.getElementById('opt');
                                                 myTarget.scrollIntoView({ behavior: "smooth" });
+                                                myTarget.scrollIntoViewIfNeeded(true);
+
                                             }}                                        >
                                             Servicii Business
                                         </DropdownItem>

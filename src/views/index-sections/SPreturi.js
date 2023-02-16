@@ -19,6 +19,11 @@ function SPreturi() {
     return (
         <div className="body-preturi">
             <div className="page-preturi">
+                <div className="ok">*Comanda minima pentru Bucuresti este de 150 de lei.  / pentru Ilfov – 250 lei.</div>
+                <div className="ok">
+                    *Pentru judetul Ilfov pot aparea taxe de deplasare in functie de distanta, va rugam sa ne contactati pentru detalii.
+                </div>
+                <div className="ok">*Preturile de mai jos sunt informative si  pot diferi daca gradul de murdarie este ridicat si timpul necesar curatarii este mai mare decat standardul alocat.</div>
                 <CustomizedTables
                     rows={[
                         createData('Canapea 2 locuri', "130 lei"),
@@ -55,6 +60,7 @@ function SPreturi() {
 
                     titlu={"Tip | Canapele, Coltare, Fotolii, Scaune"}
                 />
+                <div className="ok">*Pernele canapelelor se platesc separat, 10 - 20 lei / articol </div>
                 <CustomizedTables
                     rows={[
                         createData('Saltea single - 1 fata', "100 lei"),
