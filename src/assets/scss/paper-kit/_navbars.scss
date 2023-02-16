@@ -214,14 +214,14 @@
 
     @media (max-width: 991px) {
       margin-top: 10px;
-      margin-left: 10px;
-      margin-right: 10px;
+      //margin-left: 10px;
+      //margin-right: 10px;
     }
 
     .nav-item .nav-link {
       line-height: 1.6;
       margin: 15px 5px 10px 5px;
-      //padding: $navbar-padding-a;
+      padding: $navbar-padding-a;
       opacity: .8;
       font-size: $font-size-medium;
       text-transform: uppercase;
@@ -296,7 +296,7 @@
     .dropdown .nav-link {
       text-align: center;
       margin-top: 15px;
-      margin-bottom: 10px;
+      margin-bottom: 17px;
       padding-top: 20px;
       //padding-bottom: 20px;
     }
