@@ -9,7 +9,7 @@ body {
 }
 
 .body-nosroll {
-    //overflow: hidden !important;
+    overflow: hidden !important;
 }
 
 // footer {
@@ -309,7 +309,7 @@ h1 {
     position: relative;
     padding: 5em;
     height: 100vh;
-    overflow: visible !important;
+    overflow: hidden;
     scroll-snap-align: center;
 
     &:before {
@@ -344,121 +344,121 @@ h1 {
     box-shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.03),
         0 22.3px 17.9px rgba(0, 0, 0, 0.05),
         0 100px 80px rgba(0, 0, 0, 0.07);
-    // overflow: hidden;
+    overflow: hidden;
     transition: all 1600ms ease !important;
     background: url('../../img/canapea4.jpg') right center / cover;
 
-    // &:hover {
-    //     figcaption {
-    //         transform: translateY(0px);
-    //     }
+    &:hover {
+        figcaption {
+            transform: translateY(0px);
+        }
 
-    //     // figcaption.pret {
+        // figcaption.pret {
 
-    //     //     @media (min-width: 800px) {
-    //     //         transform: translate(-560px, 160px) !important;
-    //     //         opacity: 1;
+        //     @media (min-width: 800px) {
+        //         transform: translate(-560px, 160px) !important;
+        //         opacity: 1;
 
-    //     //         @media (max-height: 850px) {
-    //     //             transform: translate(-560px, calc(100vh/3 - 130px)) !important;
-    //     //         }
+        //         @media (max-height: 850px) {
+        //             transform: translate(-560px, calc(100vh/3 - 130px)) !important;
+        //         }
 
-    //     //         @media (max-height: 750px) {
-    //     //             transform: translate(-560px, calc(100vh/3 - 100px)) !important;
-    //     //         }
+        //         @media (max-height: 750px) {
+        //             transform: translate(-560px, calc(100vh/3 - 100px)) !important;
+        //         }
 
-    //     //         @media (max-height: 650px) {
-    //     //             transform: translate(-560px, calc(100vh/3 - 80px)) !important;
-    //     //         }
+        //         @media (max-height: 650px) {
+        //             transform: translate(-560px, calc(100vh/3 - 80px)) !important;
+        //         }
 
-    //     //         @media (max-height: 580px) {
-    //     //             transform: translate(-560px, calc(100vh/3 - 10px)) !important;
-    //     //         }
+        //         @media (max-height: 580px) {
+        //             transform: translate(-560px, calc(100vh/3 - 10px)) !important;
+        //         }
 
-    //     //         @media (max-width: 992px) {
-    //     //             @media (max-height: 800px) {
-    //     //                 transform: translate(-560px, calc(100vh/3 - 100px)) !important;
-    //     //             }
+        //         @media (max-width: 992px) {
+        //             @media (max-height: 800px) {
+        //                 transform: translate(-560px, calc(100vh/3 - 100px)) !important;
+        //             }
 
-    //     //             @media (max-height: 750px) {
-    //     //                 transform: translate(-560px, calc(100vh/3 - 70px)) !important;
-    //     //             }
+        //             @media (max-height: 750px) {
+        //                 transform: translate(-560px, calc(100vh/3 - 70px)) !important;
+        //             }
 
-    //     //             @media (max-height: 650px) {
-    //     //                 transform: translate(-560px, calc(100vh/3 - 50px)) !important;
-    //     //             }
+        //             @media (max-height: 650px) {
+        //                 transform: translate(-560px, calc(100vh/3 - 50px)) !important;
+        //             }
 
-    //     //             @media (max-height: 580px) {
-    //     //                 transform: translate(-560px, calc(100vh/3 - 10px)) !important;
-    //     //             }
+        //             @media (max-height: 580px) {
+        //                 transform: translate(-560px, calc(100vh/3 - 10px)) !important;
+        //             }
 
-    //     //             @media (max-height: 430px) {
-    //     //                 transform: translate(-560px, calc(100vh/3 + 30px)) !important;
-    //     //             }
-    //     //         }
-    //     //     }
+        //             @media (max-height: 430px) {
+        //                 transform: translate(-560px, calc(100vh/3 + 30px)) !important;
+        //             }
+        //         }
+        //     }
 
-    //     //     @media (max-width: 799px) {
-    //     //         transform: translate(-560px, 200px) !important;
-    //     //         opacity: 1;
+        //     @media (max-width: 799px) {
+        //         transform: translate(-560px, 200px) !important;
+        //         opacity: 1;
 
-    //     //         @media (max-height: 1350px) {
-    //     //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 170px)) !important;
-    //     //         }
+        //         @media (max-height: 1350px) {
+        //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 170px)) !important;
+        //         }
 
-    //     //         @media (max-height: 800px) {
-    //     //             transform: translate(-560px, 180px) !important;
-    //     //         }
+        //         @media (max-height: 800px) {
+        //             transform: translate(-560px, 180px) !important;
+        //         }
 
-    //     //         @media (max-height: 660px) {
-    //     //             transform: translate(-560px, 160px) !important;
-    //     //         }
+        //         @media (max-height: 660px) {
+        //             transform: translate(-560px, 160px) !important;
+        //         }
 
-    //     //         @media (max-height: 580px) {
-    //     //             transform: translate(-560px, calc(100vh/3 + 20px)) !important;
-    //     //         }
-    //     //     }
+        //         @media (max-height: 580px) {
+        //             transform: translate(-560px, calc(100vh/3 + 20px)) !important;
+        //         }
+        //     }
 
-    //     //     @media (max-width: 799px) {
+        //     @media (max-width: 799px) {
 
-    //     //         width: 180px !important;
-    //     //         transform: translate(calc(-100vw + 180px), calc(100vh/3 - 180px)) !important;
+        //         width: 180px !important;
+        //         transform: translate(calc(-100vw + 180px), calc(100vh/3 - 180px)) !important;
 
-    //     //         @media (max-height: 1350px) {
-    //     //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 170px)) !important;
-    //     //         }
+        //         @media (max-height: 1350px) {
+        //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 170px)) !important;
+        //         }
 
-    //     //         @media (max-height: 1250px) {
-    //     //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 160px)) !important;
-    //     //         }
+        //         @media (max-height: 1250px) {
+        //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 160px)) !important;
+        //         }
 
-    //     //         @media (max-height: 1200px) {
-    //     //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 145px)) !important;
-    //     //         }
+        //         @media (max-height: 1200px) {
+        //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 145px)) !important;
+        //         }
 
-    //     //         @media (max-height: 1100px) {
-    //     //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 140px)) !important;
-    //     //         }
+        //         @media (max-height: 1100px) {
+        //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 140px)) !important;
+        //         }
 
-    //     //         @media (max-height: 1050px) {
-    //     //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 120px)) !important;
-    //     //         }
+        //         @media (max-height: 1050px) {
+        //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 120px)) !important;
+        //         }
 
-    //     //         @media (max-height: 1000px) {
-    //     //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 110px)) !important;
-    //     //         }
+        //         @media (max-height: 1000px) {
+        //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 110px)) !important;
+        //         }
 
-    //     //         @media (max-height: 950px) {
-    //     //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 100px)) !important;
-    //     //         }
+        //         @media (max-height: 950px) {
+        //             transform: translate(calc(-100vw + 180px), calc(100vh/3 - 100px)) !important;
+        //         }
 
-    //     //         @media (max-height: 660px) {
-    //     //             transform: translate(calc(-100vw + 110px), 200px) !important;
-    //     //         }
-    //     //     }
-    //     // }
+        //         @media (max-height: 660px) {
+        //             transform: translate(calc(-100vw + 110px), 200px) !important;
+        //         }
+        //     }
+        // }
 
-    // }
+    }
 
     // &:hover {
     //     //background-position: 100% 50%;
@@ -661,7 +661,7 @@ h1 {
     box-shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.03),
         0 22.3px 17.9px rgba(0, 0, 0, 0.05),
         0 100px 80px rgba(0, 0, 0, 0.07);
-    //overflow: hidden;
+    overflow: hidden;
     transition: all 1600ms ease !important;
     background: url('../../img/canapea4.jpg') center center / cover !important;
 
@@ -1303,7 +1303,7 @@ h1 {
     box-shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.03),
         0 22.3px 17.9px rgba(0, 0, 0, 0.05),
         0 100px 80px rgba(0, 0, 0, 0.07);
-    //overflow: hidden;
+    overflow: hidden;
     transition: all 1600ms ease !important;
     background: url('../../img/coltar3.jpg') center center / cover !important;
 
@@ -1914,7 +1914,7 @@ h1 {
     box-shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.03),
         0 22.3px 17.9px rgba(0, 0, 0, 0.05),
         0 100px 80px rgba(0, 0, 0, 0.07);
-    //overflow: hidden;
+    overflow: hidden;
     transition: all 1600ms ease !important;
     background: url('../../img/fotoliu2.jpg') center center / cover !important;
 
@@ -2608,7 +2608,7 @@ h1 {
     box-shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.03),
         0 22.3px 17.9px rgba(0, 0, 0, 0.05),
         0 100px 80px rgba(0, 0, 0, 0.07);
-    //overflow: hidden;
+    overflow: hidden;
     transition: all 1600ms ease !important;
     background: url('../../img/scaune9.jpg') center center / cover !important;
 
@@ -3363,7 +3363,7 @@ h1 {
     box-shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.03),
         0 22.3px 17.9px rgba(0, 0, 0, 0.05),
         0 100px 80px rgba(0, 0, 0, 0.07);
-    //overflow: hidden;
+    overflow: hidden;
     transition: all 1600ms ease !important;
     background: url('../../img/carpet3.jpg') left bottom / cover !important;
 
@@ -4118,7 +4118,7 @@ h1 {
     box-shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.03),
         0 22.3px 17.9px rgba(0, 0, 0, 0.05),
         0 100px 80px rgba(0, 0, 0, 0.07);
-    //overflow: hidden;
+    overflow: hidden;
     transition: all 1600ms ease !important;
     background: url('../../img/mocheta2.jpg') left center / cover !important;
 
@@ -4877,7 +4877,7 @@ h1 {
     box-shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.03),
         0 22.3px 17.9px rgba(0, 0, 0, 0.05),
         0 100px 80px rgba(0, 0, 0, 0.07);
-    //overflow: hidden;
+    overflow: hidden;
     transition: all 1600ms ease !important;
     background: url('../../img/saltea2.jpg') center center / cover !important;
 
@@ -5636,7 +5636,7 @@ h1 {
     box-shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.03),
         0 22.3px 17.9px rgba(0, 0, 0, 0.05),
         0 100px 80px rgba(0, 0, 0, 0.07);
-    //overflow: hidden;
+    overflow: hidden;
     transition: all 1600ms ease !important;
     background: url('../../img/busi7.jpg') left center / cover !important;
 
