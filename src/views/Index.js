@@ -145,122 +145,122 @@ function Index() {
         //     } else {
         //       clearInterval(timer);
         //     }
-      }, 100);
+      }, 50);
     });
 
-    target.addEventListener('touchmove', function () {
-      console.log("O DA", target.scrollTop)
-      // clearInterval(timer);
-      // restart the timer
-      timer = setInterval(function () {
-        //console.log(target.scrollTop % (target.scrollHeight / 8), "hOOP", target.scrollTop);
-        //if (target.scrollTop % (target.scrollHeight / 8) <= 100) {
-        // The scrolling distance is equal, it is considered to stop scrolling
-        //clearInterval(timer);
-        //console.log(target.scrollTop / (target.scrollHeight / 8), "haha");
-        // ... do what you want, like callback handling
-        switch ((target.scrollTop + 10) / (target.scrollHeight / 8)) {
-          case 0:
-            console.log("0");
-            document.getElementById('primu').classList.add("concept-two");
-            document.getElementById('doi').classList.remove("concept-two2");
-            document.getElementById('trei').classList.remove("concept-three");
-            document.getElementById('patru').classList.remove("concept-four");
-            document.getElementById('cinci').classList.remove("concept-five");
-            document.getElementById('sase').classList.remove("concept-six");
-            document.getElementById('sapte').classList.remove("concept-seven");
-            document.getElementById('opt').classList.remove("concept-eight");
-            break;
-          case 1:
-            console.log("1")
+    // target.addEventListener('touchmove', function () {
+    //   console.log("O DA", target.scrollTop)
+    //   // clearInterval(timer);
+    //   // restart the timer
+    //   timer = setInterval(function () {
+    //     //console.log(target.scrollTop % (target.scrollHeight / 8), "hOOP", target.scrollTop);
+    //     //if (target.scrollTop % (target.scrollHeight / 8) <= 100) {
+    //     // The scrolling distance is equal, it is considered to stop scrolling
+    //     //clearInterval(timer);
+    //     //console.log(target.scrollTop / (target.scrollHeight / 8), "haha");
+    //     // ... do what you want, like callback handling
+    //     switch ((target.scrollTop + 10) / (target.scrollHeight / 8)) {
+    //       case 0:
+    //         console.log("0");
+    //         document.getElementById('primu').classList.add("concept-two");
+    //         document.getElementById('doi').classList.remove("concept-two2");
+    //         document.getElementById('trei').classList.remove("concept-three");
+    //         document.getElementById('patru').classList.remove("concept-four");
+    //         document.getElementById('cinci').classList.remove("concept-five");
+    //         document.getElementById('sase').classList.remove("concept-six");
+    //         document.getElementById('sapte').classList.remove("concept-seven");
+    //         document.getElementById('opt').classList.remove("concept-eight");
+    //         break;
+    //       case 1:
+    //         console.log("1")
 
-            document.getElementById('primu').classList.remove("concept-two");
-            document.getElementById('doi').classList.add("concept-two2");
-            document.getElementById('trei').classList.remove("concept-three");
-            document.getElementById('patru').classList.remove("concept-four");
-            document.getElementById('cinci').classList.remove("concept-five");
-            document.getElementById('sase').classList.remove("concept-six");
-            document.getElementById('sapte').classList.remove("concept-seven");
-            document.getElementById('opt').classList.remove("concept-eight");
-            break;
-          case 2:
-            console.log("2");
+    //         document.getElementById('primu').classList.remove("concept-two");
+    //         document.getElementById('doi').classList.add("concept-two2");
+    //         document.getElementById('trei').classList.remove("concept-three");
+    //         document.getElementById('patru').classList.remove("concept-four");
+    //         document.getElementById('cinci').classList.remove("concept-five");
+    //         document.getElementById('sase').classList.remove("concept-six");
+    //         document.getElementById('sapte').classList.remove("concept-seven");
+    //         document.getElementById('opt').classList.remove("concept-eight");
+    //         break;
+    //       case 2:
+    //         console.log("2");
 
-            document.getElementById('primu').classList.remove("concept-two");
-            document.getElementById('doi').classList.remove("concept-two2");
-            document.getElementById('trei').classList.add("concept-three");
-            document.getElementById('patru').classList.remove("concept-four");
-            document.getElementById('cinci').classList.remove("concept-five");
-            document.getElementById('sase').classList.remove("concept-six");
-            document.getElementById('sapte').classList.remove("concept-seven");
-            document.getElementById('opt').classList.remove("concept-eight");
-            break;
-          case 3:
-            console.log("3");
+    //         document.getElementById('primu').classList.remove("concept-two");
+    //         document.getElementById('doi').classList.remove("concept-two2");
+    //         document.getElementById('trei').classList.add("concept-three");
+    //         document.getElementById('patru').classList.remove("concept-four");
+    //         document.getElementById('cinci').classList.remove("concept-five");
+    //         document.getElementById('sase').classList.remove("concept-six");
+    //         document.getElementById('sapte').classList.remove("concept-seven");
+    //         document.getElementById('opt').classList.remove("concept-eight");
+    //         break;
+    //       case 3:
+    //         console.log("3");
 
-            document.getElementById('primu').classList.remove("concept-two");
-            document.getElementById('doi').classList.remove("concept-two2");
-            document.getElementById('trei').classList.remove("concept-three");
-            document.getElementById('patru').classList.add("concept-four");
-            document.getElementById('cinci').classList.remove("concept-five");
-            document.getElementById('sase').classList.remove("concept-six");
-            document.getElementById('sapte').classList.remove("concept-seven");
-            document.getElementById('opt').classList.remove("concept-eight");
-            break;
-          case 4:
-            console.log("4");
+    //         document.getElementById('primu').classList.remove("concept-two");
+    //         document.getElementById('doi').classList.remove("concept-two2");
+    //         document.getElementById('trei').classList.remove("concept-three");
+    //         document.getElementById('patru').classList.add("concept-four");
+    //         document.getElementById('cinci').classList.remove("concept-five");
+    //         document.getElementById('sase').classList.remove("concept-six");
+    //         document.getElementById('sapte').classList.remove("concept-seven");
+    //         document.getElementById('opt').classList.remove("concept-eight");
+    //         break;
+    //       case 4:
+    //         console.log("4");
 
-            document.getElementById('primu').classList.remove("concept-two");
-            document.getElementById('doi').classList.remove("concept-two2");
-            document.getElementById('trei').classList.remove("concept-three");
-            document.getElementById('patru').classList.remove("concept-four");
-            document.getElementById('cinci').classList.add("concept-five");
-            document.getElementById('sase').classList.remove("concept-six");
-            document.getElementById('sapte').classList.remove("concept-seven");
-            document.getElementById('opt').classList.remove("concept-eight");
-            break;
-          case 5:
-            console.log("5");
+    //         document.getElementById('primu').classList.remove("concept-two");
+    //         document.getElementById('doi').classList.remove("concept-two2");
+    //         document.getElementById('trei').classList.remove("concept-three");
+    //         document.getElementById('patru').classList.remove("concept-four");
+    //         document.getElementById('cinci').classList.add("concept-five");
+    //         document.getElementById('sase').classList.remove("concept-six");
+    //         document.getElementById('sapte').classList.remove("concept-seven");
+    //         document.getElementById('opt').classList.remove("concept-eight");
+    //         break;
+    //       case 5:
+    //         console.log("5");
 
-            document.getElementById('primu').classList.remove("concept-two");
-            document.getElementById('doi').classList.remove("concept-two2");
-            document.getElementById('trei').classList.remove("concept-three");
-            document.getElementById('patru').classList.remove("concept-four");
-            document.getElementById('cinci').classList.remove("concept-five");
-            document.getElementById('sase').classList.add("concept-six");
-            document.getElementById('sapte').classList.remove("concept-seven");
-            document.getElementById('opt').classList.remove("concept-eight");
-            break;
-          case 6:
-            console.log("6");
+    //         document.getElementById('primu').classList.remove("concept-two");
+    //         document.getElementById('doi').classList.remove("concept-two2");
+    //         document.getElementById('trei').classList.remove("concept-three");
+    //         document.getElementById('patru').classList.remove("concept-four");
+    //         document.getElementById('cinci').classList.remove("concept-five");
+    //         document.getElementById('sase').classList.add("concept-six");
+    //         document.getElementById('sapte').classList.remove("concept-seven");
+    //         document.getElementById('opt').classList.remove("concept-eight");
+    //         break;
+    //       case 6:
+    //         console.log("6");
 
-            document.getElementById('primu').classList.remove("concept-two");
-            document.getElementById('doi').classList.remove("concept-two2");
-            document.getElementById('trei').classList.remove("concept-three");
-            document.getElementById('patru').classList.remove("concept-four");
-            document.getElementById('cinci').classList.remove("concept-five");
-            document.getElementById('sase').classList.remove("concept-six");
-            document.getElementById('sapte').classList.add("concept-seven");
-            document.getElementById('opt').classList.remove("concept-eight");
-            break;
-          case 7:
-            console.log("7")
+    //         document.getElementById('primu').classList.remove("concept-two");
+    //         document.getElementById('doi').classList.remove("concept-two2");
+    //         document.getElementById('trei').classList.remove("concept-three");
+    //         document.getElementById('patru').classList.remove("concept-four");
+    //         document.getElementById('cinci').classList.remove("concept-five");
+    //         document.getElementById('sase').classList.remove("concept-six");
+    //         document.getElementById('sapte').classList.add("concept-seven");
+    //         document.getElementById('opt').classList.remove("concept-eight");
+    //         break;
+    //       case 7:
+    //         console.log("7")
 
-            document.getElementById('primu').classList.remove("concept-two");
-            document.getElementById('doi').classList.remove("concept-two2");
-            document.getElementById('trei').classList.remove("concept-three");
-            document.getElementById('patru').classList.remove("concept-four");
-            document.getElementById('cinci').classList.remove("concept-five");
-            document.getElementById('sase').classList.remove("concept-six");
-            document.getElementById('sapte').classList.remove("concept-seven");
-            document.getElementById('opt').classList.add("concept-eight");
-            break;
-        }
-        //     } else {
-        //       clearInterval(timer);
-        //     }
-      }, 600);
-    });
+    //         document.getElementById('primu').classList.remove("concept-two");
+    //         document.getElementById('doi').classList.remove("concept-two2");
+    //         document.getElementById('trei').classList.remove("concept-three");
+    //         document.getElementById('patru').classList.remove("concept-four");
+    //         document.getElementById('cinci').classList.remove("concept-five");
+    //         document.getElementById('sase').classList.remove("concept-six");
+    //         document.getElementById('sapte').classList.remove("concept-seven");
+    //         document.getElementById('opt').classList.add("concept-eight");
+    //         break;
+    //     }
+    //     //     } else {
+    //     //       clearInterval(timer);
+    //     //     }
+    //   }, 600);
+    // });
 
     return function cleanup() {
       document.body.classList.remove("index");

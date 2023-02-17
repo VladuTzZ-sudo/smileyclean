@@ -11,56 +11,56 @@ function Serie() {
                 setTimeout(() => {
                     document.getElementById('primu').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('primu').scrollIntoViewIfNeeded(centerIfNeeded);
-                }, 50);
+                }, 100);
                 break;
             case 'coltare':
                 setTimeout(() => {
                     document.getElementById('doi').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('doi').scrollIntoViewIfNeeded(centerIfNeeded)
 
-                }, 50);
+                }, 100);
                 break;
             case 'fotolii':
                 setTimeout(() => {
                     document.getElementById('trei').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('trei').scrollIntoViewIfNeeded(centerIfNeeded)
 
-                }, 50);
+                }, 100);
                 break;
             case 'scaune':
                 setTimeout(() => {
                     document.getElementById('patru').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('patru').scrollIntoViewIfNeeded(centerIfNeeded)
 
-                }, 50);
+                }, 100);
                 break;
             case 'covoare':
                 setTimeout(() => {
                     document.getElementById('cinci').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('cinci').scrollIntoViewIfNeeded(centerIfNeeded)
 
-                }, 50);
+                }, 100);
                 break;
             case 'mochete':
                 setTimeout(() => {
                     document.getElementById('sase').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('sase').scrollIntoViewIfNeeded(centerIfNeeded)
 
-                }, 50);
+                }, 100);
                 break;
             case 'saltele':
                 setTimeout(() => {
                     document.getElementById('sapte').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('sapte').scrollIntoViewIfNeeded(centerIfNeeded)
 
-                }, 50);
+                }, 100);
                 break;
             case 'business':
                 setTimeout(() => {
                     document.getElementById('opt').scrollIntoView({ behavior: "smooth" });
                     document.getElementById('opt').scrollIntoViewIfNeeded(centerIfNeeded)
 
-                }, 50);
+                }, 100);
                 break;
         }
     }, []);
