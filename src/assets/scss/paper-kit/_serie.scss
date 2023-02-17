@@ -233,11 +233,11 @@ body {
     scroll-snap-type: y mandatory;
     -webkit-scroll-snap-type: y mandatory;
     position: relative;
-    position: -webkit-sticky;
+    //position: -webkit-sticky;
     //position: sticky;
     //top: 95px;
     height: 100%;
-    //-webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
 
     //overflow-y: scroll;
     -ms-overflow-style: none;
@@ -261,7 +261,7 @@ body {
 }
 
 .main-content:after {
-    //overflow-y: scroll;
+    overflow-y: scroll;
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;
