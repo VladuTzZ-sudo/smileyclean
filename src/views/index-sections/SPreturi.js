@@ -1,21 +1,15 @@
 import React from "react";
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-import CanapeaMica from "../../assets/img/mic-canapea.jpg";
 import CustomizedTables from "./Tabel";
 import { styled } from '@mui/material/styles';
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
 import TableCell, { tableCellClasses } from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
+
 
 function createData(service, price) {
     return { service, price };
 }
 
-function SPreturi() {
+export default function SPreturi() {
     return (
         <div className="body-preturi">
             <div className="page-preturi">
@@ -268,110 +262,3 @@ function SPreturi() {
         </div>
     )
 }
-
-{/* <div class="concept2 concept-one2" id="primu"> */ }
-{/* <figcaption>
-                    <span class="info">
-                        <div style={{ marginBottom: "17px" }}>
-                            <div className="titlu-serviciu">Curatare Canapele</div>
-                            <span className="brand-serviciu">Smiley Clean</span>
-                        </div>
-                    </span> */}
-
-{/* </figcaption> */ }
-
-{/* </div> */ }
-{/* <div class="concept2 concept-two2" id="doi">
-                <figcaption>
-                    <span class="info">
-                        <div style={{ marginBottom: "17px" }}>
-                            <div className="titlu-serviciu">Curatare Coltare</div>
-                            <span className="brand-serviciu">Smiley Clean</span>
-                        </div>
-
-                    </span>
-                </figcaption>
-
-            </div>
-
-            <div class="concept2 concept-three2" id="three">
-                <figcaption>
-                    <span class="info">
-                        <div style={{ marginBottom: "17px" }}>
-                            <div className="titlu-serviciu">Curatare Coltare</div>
-                            <span className="brand-serviciu">Smiley Clean</span>
-                        </div>
-
-                    </span>
-                </figcaption>
-
-            </div>
-
-            <div class="concept2 concept-four2" id="four">
-                <figcaption>
-                    <span class="info">
-                        <div style={{ marginBottom: "17px" }}>
-                            <div className="titlu-serviciu">Curatare Coltare</div>
-                            <span className="brand-serviciu">Smiley Clean</span>
-                        </div>
-
-                    </span>
-                </figcaption>
-
-            </div>
-
-            <div class="concept2 concept-five2" id="five">
-                <figcaption>
-                    <span class="info">
-                        <div style={{ marginBottom: "17px" }}>
-                            <div className="titlu-serviciu">Curatare Coltare</div>
-                            <span className="brand-serviciu">Smiley Clean</span>
-                        </div>
-
-                    </span>
-                </figcaption>
-
-            </div>
-
-            <div class="concept2 concept-six2" id="six">
-                <figcaption>
-                    <span class="info">
-                        <div style={{ marginBottom: "17px" }}>
-                            <div className="titlu-serviciu">Curatare Coltare</div>
-                            <span className="brand-serviciu">Smiley Clean</span>
-                        </div>
-
-                    </span>
-                </figcaption>
-
-            </div>
-
-            <div class="concept2 concept-seven2" id="seven">
-                <figcaption>
-                    <span class="info">
-                        <div style={{ marginBottom: "17px" }}>
-                            <div className="titlu-serviciu">Curatare Coltare</div>
-                            <span className="brand-serviciu">Smiley Clean</span>
-                        </div>
-
-                    </span>
-                </figcaption>
-
-            </div>
-
-            <div class="concept2 concept-eight2" id="eight">
-                <figcaption>
-                    <span class="info">
-                        <div style={{ marginBottom: "17px" }}>
-                            <div className="titlu-serviciu">Curatare Coltare</div>
-                            <span className="brand-serviciu">Smiley Clean</span>
-                        </div>
-
-                    </span>
-                </figcaption>
-
-            </div> */}
-
-export default SPreturi;
-
-       // < footer ><a href="https://twitter.com/meowlivia_" target="_blank"><i class="icon-social-twitter icons"></i></a><a href="https://github.com/oliviale" target="_blank"><i class="icon-social-github icons"></i></a><a href="https://dribbble.com/oliviale" target="_blank"><i class="icon-social-dribbble icons"></i></a></footer >

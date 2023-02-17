@@ -2,12 +2,10 @@ import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 import Logo from '../../assets/logo/LOGO_OFFICIAL.jpg';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { animateScroll as scroller } from 'react-scroll';
 
 // reactstrap components
 import {
-    Button,
-    UncontrolledCollapse,
     Collapse,
     NavbarBrand,
     Navbar,

@@ -2,10 +2,6 @@ import React from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
-import Logo from '../../assets/logo/LOGO_OFFICIAL.jpg';
-import Medal from '../../assets/img/medal-solid.svg';
-import Car from '../../assets/img/shipping-fast-solid.svg';
-import Money from '../../assets/img/hand-holding-dollar-solid.svg'
 // core components
 
 function IndexHeaderPreturi() {

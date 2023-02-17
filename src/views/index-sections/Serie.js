@@ -1,14 +1,4 @@
 import React from "react";
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-import CanapeaMica from "../../assets/img/mic-canapea.jpg";
-
-function goTo() {
-    scroller.scrollTo('doi', {
-        duration: 2000,
-        delay: 2,
-        smooth: 'easeInOutQuart'
-    })
-}
 
 function Serie() {
 
