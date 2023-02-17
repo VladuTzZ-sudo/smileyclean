@@ -36,13 +36,13 @@ function Index() {
 
     target.addEventListener('scroll', function () {
       console.log("O DA", target.scrollTop)
-      clearInterval(timer);
+      // clearInterval(timer);
       // restart the timer
       timer = setInterval(function () {
-        console.log(target.scrollTop % (target.scrollHeight / 8), "hOOP", target.scrollTop);
+        //console.log(target.scrollTop % (target.scrollHeight / 8), "hOOP", target.scrollTop);
         //if (target.scrollTop % (target.scrollHeight / 8) <= 100) {
         // The scrolling distance is equal, it is considered to stop scrolling
-        clearInterval(timer);
+        //clearInterval(timer);
         //console.log(target.scrollTop / (target.scrollHeight / 8), "haha");
         // ... do what you want, like callback handling
         switch (target.scrollTop / (target.scrollHeight / 8)) {
