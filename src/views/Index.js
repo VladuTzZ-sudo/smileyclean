@@ -38,108 +38,99 @@ function Index() {
       console.log("O DA", target.scrollTop)
       clearInterval(timer);
       // restart the timer
-      // timer = setInterval(function () {
-      //   console.log(target.scrollTop % (target.scrollHeight / 8), "hOOP", target.scrollTop);
-      //   if (target.scrollTop % (target.scrollHeight / 8) <= 100) {
-      //     // The scrolling distance is equal, it is considered to stop scrolling
-      //     clearInterval(timer);
-      //     //console.log(target.scrollTop / (target.scrollHeight / 8), "haha");
-      //     // ... do what you want, like callback handling
-      var numberOfTimes = 20;
-      var delay = 1000;
-
-      for (let i = 0; i < numberOfTimes; i++) {
-        setTimeout(() => {
-          switch (target.scrollTop / (target.scrollHeight / 8)) {
-            case 0:
-              document.getElementById('primu').classList.add("concept-two");
-              document.getElementById('doi').classList.remove("concept-two2");
-              document.getElementById('trei').classList.remove("concept-three");
-              document.getElementById('patru').classList.remove("concept-four");
-              document.getElementById('cinci').classList.remove("concept-five");
-              document.getElementById('sase').classList.remove("concept-six");
-              document.getElementById('sapte').classList.remove("concept-seven");
-              document.getElementById('opt').classList.remove("concept-eight");
-              break;
-            case 1:
-              document.getElementById('primu').classList.remove("concept-two");
-              document.getElementById('doi').classList.add("concept-two2");
-              document.getElementById('trei').classList.remove("concept-three");
-              document.getElementById('patru').classList.remove("concept-four");
-              document.getElementById('cinci').classList.remove("concept-five");
-              document.getElementById('sase').classList.remove("concept-six");
-              document.getElementById('sapte').classList.remove("concept-seven");
-              document.getElementById('opt').classList.remove("concept-eight");
-              break;
-            case 2:
-              document.getElementById('primu').classList.remove("concept-two");
-              document.getElementById('doi').classList.remove("concept-two2");
-              document.getElementById('trei').classList.add("concept-three");
-              document.getElementById('patru').classList.remove("concept-four");
-              document.getElementById('cinci').classList.remove("concept-five");
-              document.getElementById('sase').classList.remove("concept-six");
-              document.getElementById('sapte').classList.remove("concept-seven");
-              document.getElementById('opt').classList.remove("concept-eight");
-              break;
-            case 3:
-              document.getElementById('primu').classList.remove("concept-two");
-              document.getElementById('doi').classList.remove("concept-two2");
-              document.getElementById('trei').classList.remove("concept-three");
-              document.getElementById('patru').classList.add("concept-four");
-              document.getElementById('cinci').classList.remove("concept-five");
-              document.getElementById('sase').classList.remove("concept-six");
-              document.getElementById('sapte').classList.remove("concept-seven");
-              document.getElementById('opt').classList.remove("concept-eight");
-              break;
-            case 4:
-              document.getElementById('primu').classList.remove("concept-two");
-              document.getElementById('doi').classList.remove("concept-two2");
-              document.getElementById('trei').classList.remove("concept-three");
-              document.getElementById('patru').classList.remove("concept-four");
-              document.getElementById('cinci').classList.add("concept-five");
-              document.getElementById('sase').classList.remove("concept-six");
-              document.getElementById('sapte').classList.remove("concept-seven");
-              document.getElementById('opt').classList.remove("concept-eight");
-              break;
-            case 5:
-              document.getElementById('primu').classList.remove("concept-two");
-              document.getElementById('doi').classList.remove("concept-two2");
-              document.getElementById('trei').classList.remove("concept-three");
-              document.getElementById('patru').classList.remove("concept-four");
-              document.getElementById('cinci').classList.remove("concept-five");
-              document.getElementById('sase').classList.add("concept-six");
-              document.getElementById('sapte').classList.remove("concept-seven");
-              document.getElementById('opt').classList.remove("concept-eight");
-              break;
-            case 6:
-              document.getElementById('primu').classList.remove("concept-two");
-              document.getElementById('doi').classList.remove("concept-two2");
-              document.getElementById('trei').classList.remove("concept-three");
-              document.getElementById('patru').classList.remove("concept-four");
-              document.getElementById('cinci').classList.remove("concept-five");
-              document.getElementById('sase').classList.remove("concept-six");
-              document.getElementById('sapte').classList.add("concept-seven");
-              document.getElementById('opt').classList.remove("concept-eight");
-              break;
-            case 7:
-              document.getElementById('primu').classList.remove("concept-two");
-              document.getElementById('doi').classList.remove("concept-two2");
-              document.getElementById('trei').classList.remove("concept-three");
-              document.getElementById('patru').classList.remove("concept-four");
-              document.getElementById('cinci').classList.remove("concept-five");
-              document.getElementById('sase').classList.remove("concept-six");
-              document.getElementById('sapte').classList.remove("concept-seven");
-              document.getElementById('opt').classList.add("concept-eight");
-              break;
-          }
-        }, delay * i);
-      }
-
-
-      //     } else {
-      //       clearInterval(timer);
-      //     }
-      //   }, 450);
+      timer = setInterval(function () {
+        console.log(target.scrollTop % (target.scrollHeight / 8), "hOOP", target.scrollTop);
+        //if (target.scrollTop % (target.scrollHeight / 8) <= 100) {
+        // The scrolling distance is equal, it is considered to stop scrolling
+        clearInterval(timer);
+        //console.log(target.scrollTop / (target.scrollHeight / 8), "haha");
+        // ... do what you want, like callback handling
+        switch (target.scrollTop / (target.scrollHeight / 8)) {
+          case 0:
+            document.getElementById('primu').classList.add("concept-two");
+            document.getElementById('doi').classList.remove("concept-two2");
+            document.getElementById('trei').classList.remove("concept-three");
+            document.getElementById('patru').classList.remove("concept-four");
+            document.getElementById('cinci').classList.remove("concept-five");
+            document.getElementById('sase').classList.remove("concept-six");
+            document.getElementById('sapte').classList.remove("concept-seven");
+            document.getElementById('opt').classList.remove("concept-eight");
+            break;
+          case 1:
+            document.getElementById('primu').classList.remove("concept-two");
+            document.getElementById('doi').classList.add("concept-two2");
+            document.getElementById('trei').classList.remove("concept-three");
+            document.getElementById('patru').classList.remove("concept-four");
+            document.getElementById('cinci').classList.remove("concept-five");
+            document.getElementById('sase').classList.remove("concept-six");
+            document.getElementById('sapte').classList.remove("concept-seven");
+            document.getElementById('opt').classList.remove("concept-eight");
+            break;
+          case 2:
+            document.getElementById('primu').classList.remove("concept-two");
+            document.getElementById('doi').classList.remove("concept-two2");
+            document.getElementById('trei').classList.add("concept-three");
+            document.getElementById('patru').classList.remove("concept-four");
+            document.getElementById('cinci').classList.remove("concept-five");
+            document.getElementById('sase').classList.remove("concept-six");
+            document.getElementById('sapte').classList.remove("concept-seven");
+            document.getElementById('opt').classList.remove("concept-eight");
+            break;
+          case 3:
+            document.getElementById('primu').classList.remove("concept-two");
+            document.getElementById('doi').classList.remove("concept-two2");
+            document.getElementById('trei').classList.remove("concept-three");
+            document.getElementById('patru').classList.add("concept-four");
+            document.getElementById('cinci').classList.remove("concept-five");
+            document.getElementById('sase').classList.remove("concept-six");
+            document.getElementById('sapte').classList.remove("concept-seven");
+            document.getElementById('opt').classList.remove("concept-eight");
+            break;
+          case 4:
+            document.getElementById('primu').classList.remove("concept-two");
+            document.getElementById('doi').classList.remove("concept-two2");
+            document.getElementById('trei').classList.remove("concept-three");
+            document.getElementById('patru').classList.remove("concept-four");
+            document.getElementById('cinci').classList.add("concept-five");
+            document.getElementById('sase').classList.remove("concept-six");
+            document.getElementById('sapte').classList.remove("concept-seven");
+            document.getElementById('opt').classList.remove("concept-eight");
+            break;
+          case 5:
+            document.getElementById('primu').classList.remove("concept-two");
+            document.getElementById('doi').classList.remove("concept-two2");
+            document.getElementById('trei').classList.remove("concept-three");
+            document.getElementById('patru').classList.remove("concept-four");
+            document.getElementById('cinci').classList.remove("concept-five");
+            document.getElementById('sase').classList.add("concept-six");
+            document.getElementById('sapte').classList.remove("concept-seven");
+            document.getElementById('opt').classList.remove("concept-eight");
+            break;
+          case 6:
+            document.getElementById('primu').classList.remove("concept-two");
+            document.getElementById('doi').classList.remove("concept-two2");
+            document.getElementById('trei').classList.remove("concept-three");
+            document.getElementById('patru').classList.remove("concept-four");
+            document.getElementById('cinci').classList.remove("concept-five");
+            document.getElementById('sase').classList.remove("concept-six");
+            document.getElementById('sapte').classList.add("concept-seven");
+            document.getElementById('opt').classList.remove("concept-eight");
+            break;
+          case 7:
+            document.getElementById('primu').classList.remove("concept-two");
+            document.getElementById('doi').classList.remove("concept-two2");
+            document.getElementById('trei').classList.remove("concept-three");
+            document.getElementById('patru').classList.remove("concept-four");
+            document.getElementById('cinci').classList.remove("concept-five");
+            document.getElementById('sase').classList.remove("concept-six");
+            document.getElementById('sapte').classList.remove("concept-seven");
+            document.getElementById('opt').classList.add("concept-eight");
+            break;
+        }
+        //     } else {
+        //       clearInterval(timer);
+        //     }
+      }, 600);
     });
 
     return function cleanup() {
