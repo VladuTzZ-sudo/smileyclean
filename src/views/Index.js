@@ -145,7 +145,7 @@ function Index() {
         //     } else {
         //       clearInterval(timer);
         //     }
-      }, 50);
+      }, 1);
     });
 
     // target.addEventListener('touchmove', function () {
