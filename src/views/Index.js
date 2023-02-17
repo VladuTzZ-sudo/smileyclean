@@ -45,119 +45,128 @@ function Index() {
       //     clearInterval(timer);
       //     //console.log(target.scrollTop / (target.scrollHeight / 8), "haha");
       //     // ... do what you want, like callback handling
-      switch (target.scrollTop / (target.scrollHeight / 8)) {
-        case 0:
-          document.getElementById('primu').classList.add("concept-two");
-          document.getElementById('doi').classList.remove("concept-two2");
-          document.getElementById('trei').classList.remove("concept-three");
-          document.getElementById('patru').classList.remove("concept-four");
-          document.getElementById('cinci').classList.remove("concept-five");
-          document.getElementById('sase').classList.remove("concept-six");
-          document.getElementById('sapte').classList.remove("concept-seven");
-          document.getElementById('opt').classList.remove("concept-eight");
-          break;
-        case 1:
-          document.getElementById('primu').classList.remove("concept-two");
-          document.getElementById('doi').classList.add("concept-two2");
-          document.getElementById('trei').classList.remove("concept-three");
-          document.getElementById('patru').classList.remove("concept-four");
-          document.getElementById('cinci').classList.remove("concept-five");
-          document.getElementById('sase').classList.remove("concept-six");
-          document.getElementById('sapte').classList.remove("concept-seven");
-          document.getElementById('opt').classList.remove("concept-eight");
-          break;
-        case 2:
-          document.getElementById('primu').classList.remove("concept-two");
-          document.getElementById('doi').classList.remove("concept-two2");
-          document.getElementById('trei').classList.add("concept-three");
-          document.getElementById('patru').classList.remove("concept-four");
-          document.getElementById('cinci').classList.remove("concept-five");
-          document.getElementById('sase').classList.remove("concept-six");
-          document.getElementById('sapte').classList.remove("concept-seven");
-          document.getElementById('opt').classList.remove("concept-eight");
-          break;
-        case 3:
-          document.getElementById('primu').classList.remove("concept-two");
-          document.getElementById('doi').classList.remove("concept-two2");
-          document.getElementById('trei').classList.remove("concept-three");
-          document.getElementById('patru').classList.add("concept-four");
-          document.getElementById('cinci').classList.remove("concept-five");
-          document.getElementById('sase').classList.remove("concept-six");
-          document.getElementById('sapte').classList.remove("concept-seven");
-          document.getElementById('opt').classList.remove("concept-eight");
-          break;
-        case 4:
-          document.getElementById('primu').classList.remove("concept-two");
-          document.getElementById('doi').classList.remove("concept-two2");
-          document.getElementById('trei').classList.remove("concept-three");
-          document.getElementById('patru').classList.remove("concept-four");
-          document.getElementById('cinci').classList.add("concept-five");
-          document.getElementById('sase').classList.remove("concept-six");
-          document.getElementById('sapte').classList.remove("concept-seven");
-          document.getElementById('opt').classList.remove("concept-eight");
-          break;
-        case 5:
-          document.getElementById('primu').classList.remove("concept-two");
-          document.getElementById('doi').classList.remove("concept-two2");
-          document.getElementById('trei').classList.remove("concept-three");
-          document.getElementById('patru').classList.remove("concept-four");
-          document.getElementById('cinci').classList.remove("concept-five");
-          document.getElementById('sase').classList.add("concept-six");
-          document.getElementById('sapte').classList.remove("concept-seven");
-          document.getElementById('opt').classList.remove("concept-eight");
-          break;
-        case 6:
-          document.getElementById('primu').classList.remove("concept-two");
-          document.getElementById('doi').classList.remove("concept-two2");
-          document.getElementById('trei').classList.remove("concept-three");
-          document.getElementById('patru').classList.remove("concept-four");
-          document.getElementById('cinci').classList.remove("concept-five");
-          document.getElementById('sase').classList.remove("concept-six");
-          document.getElementById('sapte').classList.add("concept-seven");
-          document.getElementById('opt').classList.remove("concept-eight");
-          break;
-        case 7:
-          document.getElementById('primu').classList.remove("concept-two");
-          document.getElementById('doi').classList.remove("concept-two2");
-          document.getElementById('trei').classList.remove("concept-three");
-          document.getElementById('patru').classList.remove("concept-four");
-          document.getElementById('cinci').classList.remove("concept-five");
-          document.getElementById('sase').classList.remove("concept-six");
-          document.getElementById('sapte').classList.remove("concept-seven");
-          document.getElementById('opt').classList.add("concept-eight");
-          break;
+      var numberOfTimes = 20;
+      var delay = 1000;
+
+      for (let i = 0; i < numberOfTimes; i++) {
+        setTimeout(() => {
+          switch (target.scrollTop / (target.scrollHeight / 8)) {
+            case 0:
+              document.getElementById('primu').classList.add("concept-two");
+              document.getElementById('doi').classList.remove("concept-two2");
+              document.getElementById('trei').classList.remove("concept-three");
+              document.getElementById('patru').classList.remove("concept-four");
+              document.getElementById('cinci').classList.remove("concept-five");
+              document.getElementById('sase').classList.remove("concept-six");
+              document.getElementById('sapte').classList.remove("concept-seven");
+              document.getElementById('opt').classList.remove("concept-eight");
+              break;
+            case 1:
+              document.getElementById('primu').classList.remove("concept-two");
+              document.getElementById('doi').classList.add("concept-two2");
+              document.getElementById('trei').classList.remove("concept-three");
+              document.getElementById('patru').classList.remove("concept-four");
+              document.getElementById('cinci').classList.remove("concept-five");
+              document.getElementById('sase').classList.remove("concept-six");
+              document.getElementById('sapte').classList.remove("concept-seven");
+              document.getElementById('opt').classList.remove("concept-eight");
+              break;
+            case 2:
+              document.getElementById('primu').classList.remove("concept-two");
+              document.getElementById('doi').classList.remove("concept-two2");
+              document.getElementById('trei').classList.add("concept-three");
+              document.getElementById('patru').classList.remove("concept-four");
+              document.getElementById('cinci').classList.remove("concept-five");
+              document.getElementById('sase').classList.remove("concept-six");
+              document.getElementById('sapte').classList.remove("concept-seven");
+              document.getElementById('opt').classList.remove("concept-eight");
+              break;
+            case 3:
+              document.getElementById('primu').classList.remove("concept-two");
+              document.getElementById('doi').classList.remove("concept-two2");
+              document.getElementById('trei').classList.remove("concept-three");
+              document.getElementById('patru').classList.add("concept-four");
+              document.getElementById('cinci').classList.remove("concept-five");
+              document.getElementById('sase').classList.remove("concept-six");
+              document.getElementById('sapte').classList.remove("concept-seven");
+              document.getElementById('opt').classList.remove("concept-eight");
+              break;
+            case 4:
+              document.getElementById('primu').classList.remove("concept-two");
+              document.getElementById('doi').classList.remove("concept-two2");
+              document.getElementById('trei').classList.remove("concept-three");
+              document.getElementById('patru').classList.remove("concept-four");
+              document.getElementById('cinci').classList.add("concept-five");
+              document.getElementById('sase').classList.remove("concept-six");
+              document.getElementById('sapte').classList.remove("concept-seven");
+              document.getElementById('opt').classList.remove("concept-eight");
+              break;
+            case 5:
+              document.getElementById('primu').classList.remove("concept-two");
+              document.getElementById('doi').classList.remove("concept-two2");
+              document.getElementById('trei').classList.remove("concept-three");
+              document.getElementById('patru').classList.remove("concept-four");
+              document.getElementById('cinci').classList.remove("concept-five");
+              document.getElementById('sase').classList.add("concept-six");
+              document.getElementById('sapte').classList.remove("concept-seven");
+              document.getElementById('opt').classList.remove("concept-eight");
+              break;
+            case 6:
+              document.getElementById('primu').classList.remove("concept-two");
+              document.getElementById('doi').classList.remove("concept-two2");
+              document.getElementById('trei').classList.remove("concept-three");
+              document.getElementById('patru').classList.remove("concept-four");
+              document.getElementById('cinci').classList.remove("concept-five");
+              document.getElementById('sase').classList.remove("concept-six");
+              document.getElementById('sapte').classList.add("concept-seven");
+              document.getElementById('opt').classList.remove("concept-eight");
+              break;
+            case 7:
+              document.getElementById('primu').classList.remove("concept-two");
+              document.getElementById('doi').classList.remove("concept-two2");
+              document.getElementById('trei').classList.remove("concept-three");
+              document.getElementById('patru').classList.remove("concept-four");
+              document.getElementById('cinci').classList.remove("concept-five");
+              document.getElementById('sase').classList.remove("concept-six");
+              document.getElementById('sapte').classList.remove("concept-seven");
+              document.getElementById('opt').classList.add("concept-eight");
+              break;
+          }
+        }, delay * i);
       }
+
+
       //     } else {
       //       clearInterval(timer);
       //     }
       //   }, 450);
-      });
-
-      return function cleanup() {
-        document.body.classList.remove("index");
-      };
     });
 
-    return (
-      <div className="main-meu">
-        <IndexNavbar />
-        <IndexHeader />
-        <div id="nav-doi">
-        </div>
+    return function cleanup() {
+      document.body.classList.remove("index");
+    };
+  });
 
-        <Serie />
-        <div >
-          <FloatingWhatsApp
-            phoneNumber="+40766326277"
-            accountName="Smiley Clean Office"
-            statusMessage="Raspundem in cel mai scurt timp."
-            avatar={Logo}
-            chatMessage="Buna ziua ! Cum va putem ajuta ?"
-            notification="true"
-          />
-        </div>
+  return (
+    <div className="main-meu">
+      <IndexNavbar />
+      <IndexHeader />
+      <div id="nav-doi">
       </div>
-    );
-  }
+
+      <Serie />
+      <div >
+        <FloatingWhatsApp
+          phoneNumber="+40766326277"
+          accountName="Smiley Clean Office"
+          statusMessage="Raspundem in cel mai scurt timp."
+          avatar={Logo}
+          chatMessage="Buna ziua ! Cum va putem ajuta ?"
+          notification="true"
+        />
+      </div>
+    </div>
+  );
+}
 
 export default Index;
