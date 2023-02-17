@@ -260,7 +260,7 @@ function Index() {
         //       clearInterval(timer);
         //     }
       }, 600);
-    // });
+    });
 
     return function cleanup() {
       document.body.classList.remove("index");
