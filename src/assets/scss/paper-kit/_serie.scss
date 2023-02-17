@@ -237,7 +237,7 @@ body {
     //position: sticky;
     //top: 95px;
     height: 100%;
-    // -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
 
     //overflow-y: scroll;
     -ms-overflow-style: none;
@@ -309,7 +309,7 @@ h1 {
     position: relative;
     padding: 5em;
     height: 100vh;
-    overflow: hidden;
+    overflow: visible;
     scroll-snap-align: center;
 
     &:before {
