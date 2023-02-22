@@ -3,7 +3,7 @@
   "name": "Transport gratuit. Curatam canapele, covoare, fotolii, saltele. Profesionalism, deplasare rapida, preturi bune.",
   "icons": [
     {
-      "src": "LOGO.png",
+      "src": "%PUBLIC_URL%/LOGO.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }

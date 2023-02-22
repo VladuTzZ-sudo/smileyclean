@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4dc9e76f.css",
-    "main.js": "/static/js/main.3752763e.js",
+    "main.css": "/static/css/main.f4d2f817.css",
+    "main.js": "/static/js/main.f5790df7.js",
     "static/media/sofa3.jpg": "/static/media/sofa3.591ac044c35df719db95.jpg",
     "static/media/mocheta2.jpg": "/static/media/mocheta2.2b971e922169d2ab35ce.jpg",
     "static/media/carpet3.jpg": "/static/media/carpet3.586ac88d0fe8eb2c8903.jpg",
@@ -26,12 +26,12 @@
     "static/media/nucleo-icons.woff": "/static/media/nucleo-icons.8e954b749f951b654fc6.woff",
     "static/media/nucleo-icons.woff2": "/static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
     "static/media/hand-holding-dollar-solid.svg": "/static/media/hand-holding-dollar-solid.129a3b8392259451816c3b1db32f3907.svg",
+    "index.html": "/index.html",
     "static/media/medal-solid.svg": "/static/media/medal-solid.9fc5a7384f87cd41a81ab57346c5421e.svg",
-    "static/media/shipping-fast-solid.svg": "/static/media/shipping-fast-solid.b413fde05bf8de5a14ea2fd9853d09fe.svg",
-    "index.html": "/index.html"
+    "static/media/shipping-fast-solid.svg": "/static/media/shipping-fast-solid.b413fde05bf8de5a14ea2fd9853d09fe.svg"
   },
   "entrypoints": [
-    "static/css/main.4dc9e76f.css",
-    "static/js/main.3752763e.js"
+    "static/css/main.f4d2f817.css",
+    "static/js/main.f5790df7.js"
   ]
 }

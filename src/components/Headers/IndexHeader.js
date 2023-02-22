@@ -39,17 +39,17 @@ function IndexHeader() {
             /> */}
           <div id="nav-container-top">
             <div id="honor">
-              <img src={Medal} id="medal"></img>
+              <img src={Medal} id="medal" alt="Profesionalism"></img>
               <p className="text-icon">Profesionalism</p>
             </div>
 
             <div id="honor">
-              <img src={Car} id="car"></img>
+              <img src={Car} id="car" alt="Ajungem repede"></img>
               <p className="text-icon">Ajungem repede</p>
             </div>
 
             <div id="honor">
-              <img src={Money} id="money"></img>
+              <img src={Money} id="money" alt="Economisiti bani"></img>
               <p className="text-icon">Economisiti bani</p>
             </div>
           </div>
